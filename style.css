@@ -1,0 +1,79 @@
+body {
+    background: wheat;
+}
+
+label {
+    color: white;
+    font-family: "Marker Felt";
+    font-size: 50px;
+}
+
+button {
+    border-radius: 20%;
+}
+
+form {
+    margin: auto;
+    display: table;
+    margin-top: 30px;
+}
+
+#animal-buttons {
+    margin: auto;
+    display: table;
+}
+
+#buttons-view {
+    margin: auto;
+    display: table;
+}
+
+td {
+    font-size: 6em;
+
+}
+
+table {
+    margin: auto;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 18%;
+    padding: 5px;
+
+}
+
+.row {
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.gif {
+    border: inset;
+    border-color: wheat;
+    border-radius: 20%;
+    box-shadow: 5px 10px black;
+}
+
+nav {
+    width: 5%;
+    position: absolute;
+    margin-left: 26%;
+    top: 5;
+}
+
+a {
+    color: white;
+}
+
+.music {
+    display: table;
+    margin: auto;
+    text-align: center;
+}

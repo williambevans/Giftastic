@@ -1,4 +1,4 @@
-var movies = ["The Matrix", "The Notebook", "Mr. Nobody", "The Lion King"];
+var movies = ["Jaws", "Blow", "Into The Wild", "Fear And Loathing In Las Vegas", "Pulp Fiction", "Gone With the Wind"];
 
 // displayMovieInfo function re-renders the HTML to display the appropriate content
 function displayMovieInfo() {
@@ -13,24 +13,12 @@ function displayMovieInfo() {
     }).then(function (response) {
 
         // Creates a div to hold the movie
-        var movie = $("<div>")
 
-        // Retrieves the Rating Data
-        // Creates an element to have the rating displayed
-        movie.append("<p>Rating: " + response.Rated);
-        // Displays the rating
-        // Retrieves the release year
-        // Creates an element to hold the release year
-        movie.append("<p>Released: " + response.Year);
-        // Displays the release year
-        // Retrieves the plot
-        // Creates an element to hold the plot
-        movie.append("<p>Plot: " + response.Plot);
-        // Appends the plot
-        // Creates an element to hold the image
+        var movie = $("<div class='column'>");
         movie.append("<img src='" + response.Poster + "'>");
         // Appends the image
-        // Puts the entire Movie above the previous movies.
+
+
         console.log(response);
 
         $(".row").prepend(movie);

@@ -62,7 +62,7 @@ $(document.body).on("click", "button", function () { // calls any "button", uses
             // var link = $('<a href=' + results[i].images.fixed_height.url + ' download=' + results[i].images.fixed_height.url + '>' + '<p>Download</p>');
 
             var animalImage = $("<img class='gif' style='width:225px;height:200px;'>"); //creates <img> with a set size and class to target
-
+            
             animalImage.attr("src", results[i].images.fixed_height_still.url); //adds src attribute to animalImage variable
             animalImage.attr("data-still", results[i].images.fixed_height_still.url); //adds data-still attribute to animalImage variable
             animalImage.attr("data-animate", results[i].images.fixed_height.url); //adds data-animate attribute to animalImage variable 

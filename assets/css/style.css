@@ -30,7 +30,7 @@ form {
 
 td {
     font-size: 6em;
-   
+
 }
 
 table {
@@ -70,4 +70,10 @@ nav {
 
 a {
     color: white;
+}
+
+.music {
+    display: table;
+    margin: auto;
+    text-align: center;
 }
